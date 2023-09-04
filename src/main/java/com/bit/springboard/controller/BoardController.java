@@ -227,7 +227,7 @@ public class BoardController {
             boardService.updateBoard(board, uFileList);
 
             Map<String, Object> returnMap = new HashMap<>();
-
+            //test
             Board updateBoard = boardService.getBoard(board.getBoardNo());
             List<BoardFile> updateBoardFileList =
                     boardService.getBoardFileList(board.getBoardNo());
